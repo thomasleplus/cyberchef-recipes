@@ -7,8 +7,9 @@ This is the recipe to decode a SAML assertion. The steps are:
 1. URL decoding
 2. Base64 decoding
 3. Decompression
+4. XML Format (easier to read)
 
-[https://gchq.github.io/CyberChef/#recipe=URL_Decode()From_Base64('A-Za-z0-9+/=',true,false)Raw_Inflate(0,0,'Adaptive',false,true)](https://gchq.github.io/CyberChef/#recipe=URL_Decode()From_Base64('A-Za-z0-9+/=',true,false)Raw_Inflate(0,0,'Adaptive',false,true))
+[[https://gchq.github.io/CyberChef/#recipe=URL_Decode()From_Base64('A-Za-z0-9+/=',true,false)Raw_Inflate(0,0,'Adaptive',false,true)](https://gchq.github.io/CyberChef/#recipe=URL_Decode()From_Base64('A-Za-z0-9+/=',true,false)Raw_Inflate(0,0,'Adaptive',false,true))](https://gchq.github.io/CyberChef/#recipe=URL_Decode()From_Base64('A-Za-z0-9+%3D=',true,false)Raw_Inflate(0,0,'Adaptive',false,true))
 
 # ROT8000
 
