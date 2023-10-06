@@ -12,7 +12,7 @@ This is the recipe to decode a JWT token. The steps are:
 
 [https://gchq.github.io/CyberChef/#recipe=URL_Decode()Fork('.','%5C%5Cn',false)From_Base64('A-Za-z0-9%2B/%3D',true,false)Filter('Line%20feed','%5E%7B.*%7D$',false)JSON_Beautify('%20%20%20%20',false,true)](https://gchq.github.io/CyberChef/#recipe=URL_Decode()Fork('.','%5C%5Cn',false)From_Base64('A-Za-z0-9%2B/%3D',true,false)Filter('Line%20feed','%5E%7B.*%7D$',false)JSON_Beautify('%20%20%20%20',false,true))
 
-[jwt.io](https://jwt.io/) is probably a better alternative but the above recipe can be the useful starting point to further JWT processing.
+[jwt.io](https://jwt.io/) is probably a better alternative but the above recipe can be a starting point if you're going to do further operations on the decoded JWT.
 
 # SAML Decode
 
