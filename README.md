@@ -11,7 +11,7 @@ This is the recipe to decode a JWT token. The steps are:
 3. Remove the signature blob
 4. JSON formating (easier to read)
 
-[Try it!](<https://gchq.github.io/CyberChef/#recipe=URL_Decode()Fork('.','%5C%5Cn',false)From_Base64('A-Za-z0-9%2B/%3D',true,false)Filter('Line%20feed','%5E%7B.*%7D$',false)JSON_Beautify('%20%20%20%20',false,true)&input=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c>)
+[Try it!](<https://gchq.github.io/CyberChef/#recipe=URL_Decode()Fork('.','%5C%5Cn',false)From_Base64('A-Za-z0-9%2B/%3D',true,false)Filter('Line%20feed','%5E%7B.*%7D$',false)JSON_Beautify('%20%20%20%20',false,true)&input=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpkV0lpT2lJeE1qTTBOVFkzT0Rrd0lpd2libUZ0WlNJNklrcHZhRzRnUkc5bElpd2lhV0YwSWpveE5URTJNak01TURJeWZRLlNmbEt4d1JKU01lS0tGMlFUNGZ3cE1lSmYzNlBPazZ5SlZfYWRRc3N3NWM>)
 
 [jwt.io](https://jwt.io/) is probably a better alternative but the above recipe can be a starting point if you're going to do further operations on the decoded JWT.
 
@@ -24,7 +24,7 @@ This is the recipe to decode a SAML assertion. The steps are:
 3. Decompression
 4. XML formating (easier to read)
 
-[Try it!](<https://gchq.github.io/CyberChef/#recipe=URL_Decode()From_Base64('A-Za-z0-9%2B/%3D',true,false)Raw_Inflate(0,0,'Adaptive',false,true)XML_Beautify('%5C%5Ct')&input=hZJBb9swDIX%2Fiqa77dho0kyIU2QNigboNq9xd9hlkGWm1ipLsSjF7b%2Bv7KRbhwHZlSK%2FR73HxdVzq8gBLEqjc5rGE0pAC1NL%2FZjTh%2FImmtOr5QJ5q7I9W3nX6HvoPKAjYVAjO77k1FvNDEeJTPMWkDnBtqvPdyyLJ2xvjTPCKEpWiGBdkLo2Gn0Ldgv2IAU83N%2FltHFujyxJeFCJG897kEIZX8fCtGPRy2SQSwbwPyRK1mErqbkbfzLAAqvpXajG07SHauT4MJaEhWovXDLiEwHaefuSgMAPyjxKfdvHXAwYSm6MFTB%2BO6c7rhAo2axz%2BtM12ZOqZ7rreDdT1aHqU9F1T5Wqs%2FYSm19TefkcWrHgiPIAf4YRPWw0Oq5dTrNJOo%2FSNMpm5eQjS1M2nccXF7MflBQnyz5JfYzinL%2FVsQnZbVkWUfF1W1Ly%2FS3S0EBPAbJR3b5P7jyYv5lMl2fDWSTv%2Bb%2FP5UsAbtaFUVK8kJVSpr%2B2wF1ww1kPo7ktd%2BdXGCqyjnZjK3OWa5QhL0q2xYD%2F5rmSOwn2P%2BdDk%2BVpyb%2BvePkK>)
+[Try it!](<https://gchq.github.io/CyberChef/#recipe=URL_Decode()From_Base64('A-Za-z0-9%2B/%3D',true,false)Raw_Inflate(0,0,'Adaptive',false,true)XML_Beautify('%5C%5Ct')&input=aFpKQmI5c3dESVglMkZpcWE3N2RobzBreUlVMlFOaWdib05xOXhkOWhsa0dXbTFpcExzU2pGN2IlMkJ2N0tSYmh3SFpsU0slMkZSNzNIeGRWenE4Z0JMRXFqYzVyR0UwcEFDMU5MJTJGWmpUaCUyRkltbXRPcjVRSjVxN0k5VzNuWDZIdm9QS0FqWVZBak83N2sxRnZOREVlSlRQTVdrRG5CdHF2UGR5eUxKMnh2alRQQ0tFcFdpR0Jka0xvMkduMExkZ3YySUFVODNOJTJGbHRIRnVqeXhKZUZDSkc4OTdrRUlaWDhmQ3RHUFJ5MlNRU3did1B5UksxbUVycWJrYmZ6TEFBcXZwWGFqRzA3U0hhdVQ0TUphRWhXb3ZYRExpRXdIYWVmdVNnTUFQeWp4S2ZkdkhYQXdZU202TUZUQiUyQk82YzdyaEFvMmF4eiUyQnRNMTJaT3FaN3JyZURkVDFhSHFVOUYxVDVXcXMlMkZZU20xOVRlZmtjV3JIZ2lQSUFmNFlSUFd3ME9xNWRUck5KT28lMkZTTk1wbTVlUWpTMU0ybmNjWEY3TWZsQlFueXo1SmZZemluTCUyRlZzUW5aYlZrV1VmRjFXMUx5JTJGUzNTMEVCUEFiSlIzYjVQN2p5WXY1bE1sMmZEV1NUdiUyQmIlMkZQNVVzQWJ0YUZVVks4a0pWU3ByJTJCMndGMXd3MWtQbzdrdGQlMkJkWEdDcXlqblpqSzNPV2E1UWhMMHEyeFlEJTJGNXJtU093bjJQJTJCZERrJTJCVnB5YiUyQnZlUGtL>)
 
 # ROT8000
 
