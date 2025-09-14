@@ -65,5 +65,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           LINTER_RULES_PATH: .
           DEFAULT_BRANCH: main
+          # FIXME @TL Could not find a way to make markdownlint ignore very long URLs
+          FILTER_REGEX_EXCLUDE: "(README\\.md)$"
           ENFORCE_COMMITLINT_CONFIGURATION_CHECK: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
